@@ -114,6 +114,7 @@ function zerar() {
     intervaloId = null;
 }
 
+// let tempoDecorridoEmSegundos = 1500;
 function mostrarTempo() {
     const tempo = new Date(tempoDecorridoEmSegundos * 1000);
     const tempoFormatado = tempo.toLocaleTimeString('pt-Br', {minute: '2-digit', second: '2-digit'});
