@@ -17,5 +17,5 @@ formAdicionarTarefa.addEventListener('submit', (evento) => {
     }
     tarefas.push(tarefa);
     // localStorage.setItem('tarefas', tarefas); o local storage só aceita string, por isso temos que transformar a lista em string.
-    localStorage.setItem('tarefas', JSON.stringify(tarefas));
+    localStorage.setItem('tarefas', JSON.stringify(tarefas)); // com a API json podemos usar o metodo stringify para transformar em string a lista.
 })
